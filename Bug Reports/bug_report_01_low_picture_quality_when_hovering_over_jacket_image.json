@@ -1,0 +1,32 @@
+{
+  "bug_report": {
+    "id": "01",
+    "title": "Low Picture Quality When Hovering Over Jacket Image on Walmart.com",
+    "environment": {
+      "Browser": "Google Chrome Version 122.0.6261.112",
+      "Hardware": "iMac 27 inch",
+      "Operating System": "macOS Ventura 13.6.5",
+      "Built Number": "1.2.3.4567"
+    },
+    "steps_to_reproduce": [
+      {
+        "step_number": 0,
+        "step": "Open Google Chrome browser."
+      },
+      {
+        "step_number": 1,
+        "step": "Navigate to the product page of the Rose Red jacket on Walmart.com: https://www.walmart.com/ip/Frontwalk-Ladies-Business-Jackets-Long-Sleeve-Blazer-Lapel-Neck-Cardigan-Jacket-Women-Stylish-Outwear-Solid-Color-Blazers-Rose-Red-M/2354051331."
+      },
+      {
+        "step_number": 2,
+        "step": "Click on the small picture - the swatch representing the Rose Red jacket."
+      },
+      {
+        "step_number": 3,
+        "step": "Hover over the image."
+      }
+    ],
+    "expected_result": "The user sees high quality at least 1024x1024 pixels of the picture of the jacket.",
+    "actual_result": "When hovering over the image, the picture becomes bigger but the quality significantly decreases. Details become blurry and pixelated, making it difficult to view the jacket accurately. The actual size of the picture observed for this jacket is 640x640 pixels. It is also noted that all jackets appear to have the same size pictures."
+  }
+}
