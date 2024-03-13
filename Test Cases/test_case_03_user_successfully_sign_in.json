@@ -1,0 +1,65 @@
+{
+  "test_case": {
+    "id": "03",
+    "title": "User successfully Sign In",
+    "pre_condition": [
+      "User has an account on Walmart.com",
+      "User has signed in to their email address",
+      "User opens browser, for example Google Chrome",
+      "User navigates to walmart.com"
+    ],
+
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "User clicks on \"Sign In\" button",
+        "expected_result": "\"Sign in or create account\" pop-up is displayed."
+      },
+      {
+        "step_number": 2,
+        "action": "User clicks on \"Sign in or create account\" button",
+        "expected_result": "User is redirected to a new page with an \"Email Address\" field and a \"Continue\" button."
+      },
+      {
+        "step_number": 3,
+        "action": "User enters their email address",
+        "expected_result": "The user's email address is displayed."
+      },
+      {
+        "step_number": 4,
+        "action": "User clicks on \"Continue\" button",
+        "expected_result": "User sees a detailed message including various elements related to sign-in options."
+      },
+      {
+        "step_number": 5,
+        "action": "User types their password \"PRcode123\"",
+        "expected_result": "User sees masking of their password."
+      },
+      {
+        "step_number": 6,
+        "action": "User clicks on \"Send Code\" button",
+        "expected_result": "User is redirected to a new page to enter a verification code."
+      },
+      {
+        "step_number": 7,
+        "action": "User receives an email from walmart.com with the verification code.",
+        "expected_result": "User successfully receives the email with the verification code."
+      },
+      {
+        "step_number": 8,
+        "action": "User opens the email and copies the 6-digit verification code.",
+        "expected_result": "User successfully copies the verification code."
+      },
+      {
+        "step_number": 9,
+        "action": "User pastes the verification code into the 6 boxes fields.",
+        "expected_result": "User sees the verification code in the boxes."
+      },
+      {
+        "step_number": 10,
+        "action": "User clicks on \"Continue\" button",
+        "expected_result": "User successfully logs in to their account."
+      }
+    ]
+  }
+}
