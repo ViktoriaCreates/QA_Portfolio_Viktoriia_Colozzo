@@ -1,0 +1,35 @@
+{
+  "test_case": {
+    "id": "04",
+    "title": "Incorrect Email Format Error Handling",
+    "pre_condition": [
+      "User has no account on Walmart.com",
+      "User has signed in to their email address",
+      "User opens browser, Google Chrome",
+      "User navigates to walmart.com"
+    ],
+
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "User clicks on \"Sign In\" button",
+        "expected_result": "\"Sign in or create account\" pop-up is displayed."
+      },
+      {
+        "step_number": 2,
+        "action": "User clicks on \"Sign in or create account\" button",
+        "expected_result": "User is redirected to a new page with an \"Email Address\" field and a \"Continue\" button."
+      },
+      {
+        "step_number": 3,
+        "action": "User enters their email address with wrong type - Forgot to include '@'",
+        "expected_result": "The error message \"Please enter a valid email address.\" with an explanation icon on the left side, all in red color is displayed."
+      },
+      {
+        "step_number": 4,
+        "action": "User tries to click on \"Continue\" button",
+        "expected_result": "User remains on the same page with the same error message."
+      }
+    ]
+  }
+}
