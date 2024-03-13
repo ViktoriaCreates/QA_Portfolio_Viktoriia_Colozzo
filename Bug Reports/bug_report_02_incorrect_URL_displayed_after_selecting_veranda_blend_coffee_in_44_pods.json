@@ -1,0 +1,36 @@
+{
+  "bug_report": {
+	"id": "02",
+	"title": "Incorrect URL Displayed After Selecting Veranda Blend Coffee in 44 Pods",
+	"environment": {
+	  "Browser": "Google Chrome Version 122.0.6261.112",
+	  "Hardware": "iMac 27 inch",
+	  "Operating System": "macOS Ventura 13.6.5",
+	  "Built Number": "1.2.3.4567"
+	},
+	"steps_to_reproduce": [
+	  {	 
+		"step_number": 0, 
+		"step": "Open Google Chrome browser." 
+	  },
+	  {	
+	  	"step_number": 1, 
+		"step": "Navigate to the product page: https://www.walmart.com/ip/Starbucks-Vanilla-Light-Roast-K-Cup-Coffee-Pods-22-Count/314489215?from=/search" 
+	  },
+	  { 	
+	  	"step_number": 2, 
+		"step": "In the 'Flavor' section, click on 'View all 24'." 
+	  },
+	  { 
+	  	"step_number": 3, 
+		"step": "Click on the box for Veranda Blend coffee." 
+	  },
+	  { 
+	  	"step_number": 4, 
+		"step": "In the 'Count Per Pack' section, select '44'." 
+	  }
+	],
+	"expected_result": "The URL should be updated to reflect the selected product and display the correct count of pods.",
+	"actual_result": "The URL displays a different type of coffee, Vanilla, and the count of pods is 22 instead of 44, despite the user seeing the selected coffee 'Veranda Blend' and count of pods '44' on the page."
+  }
+}
