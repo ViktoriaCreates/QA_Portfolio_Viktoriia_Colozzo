@@ -20,11 +20,11 @@ Bug Report Creation: Skilled in identifying and documenting software defects eff
 
 Included Materials
 
-Test Cases: Example test cases created in JSON format.
+Test Cases: Examples of test cases created in JSON format.
 
 Test Scenarios: Examples of test scenarios written in Gherkin syntax.
 
-Bug Reports: Example bug reports highlighting my ability to identify, document, and report software defects in JSON format.
+Bug Reports: Examples of bug reports highlighting my ability to identify, document, and report software defects in JSON format.
 
 Getting Started
 
