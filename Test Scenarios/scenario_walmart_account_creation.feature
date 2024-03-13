@@ -1,3 +1,5 @@
+Feature: User Account Creation
+
 Scenario: User creates a new account on Walmart.com
 
 	Given the user is on the Walmart homepage
