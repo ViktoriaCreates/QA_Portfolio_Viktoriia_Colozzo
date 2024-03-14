@@ -1,7 +1,7 @@
 {
   "bug_report": {
 	"id": "02",
-	"title": "Incorrect URL Displayed After Selecting Veranda Blend Coffee in 44 Pods",
+	"title": "Incorrect URL Endpoint Displayed After Selecting Veranda Blend Coffee in 44 Pods",
 	"environment": {
 	  "Browser": "Google Chrome Version 122.0.6261.112",
 	  "Hardware": "iMac 27 inch",
@@ -23,14 +23,14 @@
 	  },
 	  { 
 	  	"step_number": 3, 
-		"step": "Click on the box for Veranda Blend coffee." 
+		"step": "Click on the button Veranda Blend." 
 	  },
 	  { 
 	  	"step_number": 4, 
 		"step": "In the 'Count Per Pack' section, select '44'." 
 	  }
 	],
-	"expected_result": "The URL should be updated to reflect the selected product and display the correct count of pods.",
-	"actual_result": "The URL displays a different type of coffee, Vanilla, and the count of pods is 22 instead of 44, despite the user seeing the selected coffee 'Veranda Blend' and count of pods '44' on the page."
-  }
-}
+	"expected_result": "The URL endpoint should be updated to reflect the selected product and display the correct count of pods.",
+	"actual_result": "After selecting Veranda Blend coffee with 44 pods, the URL endpoint still refers to the Vanilla Light Roast K-Cup Coffee with 22 pods instead of updating to the selected coffee." 
+	}
+}	
