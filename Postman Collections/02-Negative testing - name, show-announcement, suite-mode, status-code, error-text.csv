@@ -1,0 +1,4 @@
+name, show_announcement, suite_mode, status code, error_text
+"Test1", true, 4, 400, "Field :suite_mode is not a supported enum value"
+"NEW NAME!", 12, 3, 400, "Field :show_announcement is not a valid boolean."
+"In a cozy town, Sunny the cat chased dreams of flying. One day, a magical feather granted her wish. With newfound wings, she soared, inspiring others to dream big. Together, they painted the sky with hope, proving the impossible can become a reality!1", false, 2, 400, "Field :name is too long (250 characters at most)."
