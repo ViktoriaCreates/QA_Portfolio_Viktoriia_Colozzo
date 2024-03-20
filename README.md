@@ -6,17 +6,9 @@ I am Viktoriia, a passionate and self-motivated Software QA Engineer with over 6
 
 Portfolio Overview
 
-This repository serves as a showcase of some of my key skills and experiences in the field of software quality assurance. Here, you'll find examples of my work in test development and bug report creation.
+This repository serves as a showcase of some of my key skills and experiences in the field of software quality assurance, including test development, bug report creation, and integration with Postman for 2 projects in TestRail.com that I have created, utilizing their API endpoints.
 
 I am committed to continuously updating this portfolio with examples of additional tools and technologies, ensuring it remains a comprehensive showcase of my capabilities.
-
-Key Highlights
-
-Test Case Development: Proficient in creating comprehensive test cases to ensure the quality and reliability of software products using JSON, JIRA, and Excel formats.
-
-Test Scenarios Development: Experienced in writing test scenarios in Gherkin syntax, enhancing test coverage and facilitating clear communication between stakeholders.
-
-Bug Report Creation: Skilled in identifying and documenting software defects effectively using JIRA and Excel.
 
 Included Materials
 
@@ -26,9 +18,11 @@ Test Scenarios: Examples of test scenarios written in Gherkin syntax.
 
 Bug Reports: Examples of bug reports highlighting my ability to identify, document, and report software defects in JSON format.
 
-Getting Started
+Postman Collections:
 
-Feel free to explore the contents of this repository to get an insight into my skills and experiences as a Software QA Engineer.
+Positive Testing: Postman requests and test data for positive testing scenarios, including 1 .csv file.
+
+Negative Testing: Postman requests and test data for negative testing scenarios, including 1 .csv file.
 
 Contact Me
 
