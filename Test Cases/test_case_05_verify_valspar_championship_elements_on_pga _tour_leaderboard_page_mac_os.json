@@ -1,0 +1,54 @@
+{
+  "test_case": {
+    "id": "05",
+    "title": "Verify Valspar Championship Elements on PGA Tour Leaderboard Page (Mac OS)",
+    "pre_condition": [
+      "User has a 16-inch Mac laptop running macOS Sonoma version 14.2.1 or later",
+      "User has Google Chrome browser installed, version at least 123.0.6312.58 or later",
+      "User opens Google Chrome browser"
+    ],
+  
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "The user navigates to the PGA Tour website: https://www.pgatour.com/",
+        "expected_result": "The PGA Tour website homepage loads successfully."
+      },
+      {
+        "step_number": 2,
+        "action": "The user clicks on the 'Leaderboard' button",
+        "expected_result": "The leaderboard page opens with the URL https://www.pgatour.com/leaderboard"
+      },
+      {
+        "step_number": 3,
+        "action": "The user verifies the presence of the round image with the name of the current tournament on the left side.",
+        "expected_result": "The round image with the current tournament name is displayed correctly on the left side."
+      },
+      {
+        "step_number": 4,
+        "action": "The user verifies the presence of the 'OFFICIAL' text inside the green box on the left side.",
+        "expected_result": "The 'OFFICIAL' text inside the green box is visible on the left side."
+      },
+      {
+        "step_number": 5,
+        "action": "The user verifies the presence of the text 'Valspar Championship' on the left-middle side.",
+        "expected_result": "The 'Valspar Championship' text is correctly positioned on the left-middle side."
+      },
+      {
+        "step_number": 6,
+        "action": "The user verifies the dynamic text 'INNISBROOK RESORT (COPPERHEAD COURSE)' highlighted in grey color, including the city, state, country, and date of the tournament, below the 'Valspar Championship' text.",
+        "expected_result": "The dynamic text 'INNISBROOK RESORT (COPPERHEAD COURSE)' highlighted in grey color, including the city, state, country, and date of the tournament is displayed accurately below the 'Valspar Championship' text."
+      },
+      {
+        "step_number": 7,
+        "action": "The user verifies that the horizontal separator line is displayed below.",
+        "expected_result": "The horizontal separator line is displayed below."
+      },
+      {
+        "step_number": 8,
+        "action": "The user verifies that the button with hyperlink 'Website' with the arrow ↗︎ on the left side is displayed.",
+        "expected_result": "The button with hyperlink 'Website' with the arrow ↗︎ on the left side is displayed."
+      }
+    ]
+  }
+}
