@@ -1,0 +1,67 @@
+{
+  "test_case": {
+    "id": "07",
+    "title": "Keynote App Pop-Up Window Content and Functionality from Spotlight Search",
+    "pre_condition": [
+      "The user has any Mac device with macOS 11 (Big Sur), macOS 12 (Monterey), macOS 13 (Ventura), or macOS 14 (Sonoma) and has opened the Keynote app pop-up window from Spotlight Search.",
+      "Ensure that if the user has not opened the Keynote app for some time and changes have been made, the pop-up window includes additional information as specified in the steps below."
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Observe the \"What’s New in Keynote\" text at the top in black color, displayed in Tahoma font, Regular, size 30 pt.",
+        "expected_result": "The \"What’s New in Keynote\" text is displayed as specified."
+      },
+      {
+        "step_number": 2,
+        "action": "On the left side, observe an icon in blue color for 'New Themes' and Text 'New Themes' in black color. Below it, in grey color, observe a sentence: 'Add a new look to your slides with the Dynamic Color, Minimalist Light, and Minimalist Dark themes.'",
+        "expected_result": "The 'New Themes' icon, text, and description are displayed correctly."
+      },
+      {
+        "step_number": 3,
+        "action": "On the left side, observe an icon in blue color for 'Edit Non-Contiguous Text' and Text 'Edit Non-Contiguous Text' in black color. Below it, in grey color, observe a sentence: 'Press and hold Command (⌘) key to make separate text selections.'",
+        "expected_result": "The 'Edit Non-Contiguous Text' icon, text, and description are displayed correctly."
+      },
+      {
+        "step_number": 4,
+        "action": "In the middle of the popup window, observe the text: 'Also Recently Added'",
+        "expected_result": "The 'Also Recently Added' text is displayed as specified."
+      },
+      {
+        "step_number": 5,
+        "action": "On the left side, observe an icon in blue color for 'Insert and Animate 3D Objects' and text 'Insert and Animate 3D Objects'. Below it, in grey color, observe a sentence: 'Add a new dimension to your presentations with USDZ files.'",
+        "expected_result": "The 'Insert and Animate 3D Objects' icon, text, and description are displayed correctly."
+      },
+      {
+        "step_number": 6,
+        "action": "In the middle but below in the pop-up window, observe text in blue color with the hyperlink 'Complete feature list >'",
+        "expected_result": "The 'Complete feature list' text with the hyperlink is displayed as specified."
+      },
+      {
+        "step_number": 7,
+        "action": "At the bottom, observe a button: 'Continue' in a blue color box.",
+        "expected_result": "The 'Continue' button is displayed as specified."
+      },
+      {
+        "step_number": 8,
+        "action": "In the left corner, observe three buttons: First from the left: a button in red color with an 'x' symbol - indicates closing the pop-up window. Second from the left: a button in yellow color with the '-' symbol - indicates minimizing the pop-up window. Third from the left: a button in grey color (disabled) - indicates the inability to make the pop-up window full screen.",
+        "expected_result": "The three buttons are displayed correctly, with the red button closing the window, the yellow button minimizing it, and the grey button being disabled."
+      },
+      {
+        "step_number": 9,
+        "action": "Attempt to click the button with the grey color which is disabled and verify that it cannot be clicked and used to make the pop-up window full screen.",
+        "expected_result": "The grey button remains disabled and cannot be clicked and used for full-screen functionality."
+      },
+      {
+        "step_number": 10,
+        "action": "Click the button with the '-' symbol in yellow color and verify that the pop-up window minimizes as expected.",
+        "expected_result": "The button with the '-' symbol in yellow color is displayed. The pop-up window minimizes upon clicking the '-' button."
+      },
+      {
+        "step_number": 11,
+        "action": "Click the button with the 'x' symbol in red color and verify that the pop-up window closes as expected.",
+        "expected_result": "The button with the 'x' symbol in the red color is displayed and the pop-up window closes upon clicking the 'x' button."
+      }
+    ]
+  }
+}

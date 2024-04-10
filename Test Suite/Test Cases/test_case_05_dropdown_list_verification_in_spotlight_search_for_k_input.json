@@ -1,0 +1,52 @@
+{
+  "test_case": {
+    "id": "05",
+    "title": "Dropdown List Verification in Spotlight Search for 'k' Input",
+    "pre_condition": [
+      "The user has any Mac device with macOS 11 (Big Sur), macOS 12 (Monterey), macOS 13 (Ventura), or macOS 14 (Sonoma) with an operational Spotlight Search."
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "Open Spotlight Search.",
+        "expected_result": "Spotlight Search opens in the middle of the screen."
+      },
+      {
+        "step_number": 2,
+        "action": "Enter the letter 'k' in the search field.",
+        "expected_result": "The letter 'k' is inputted into the search field."
+      },
+      {
+        "step_number": 3,
+        "action": "Observe if a dropdown list opens automatically with additional search suggestions or results related to Keynote.",
+        "expected_result": "A dropdown list appears with search suggestions related to Keynote."
+      },
+      {
+        "step_number": 4,
+        "action": "Check that the following items are displayed in the dropdown list on the left side:",
+        "sub_steps": [
+          "Keynote.app with its respective icon",
+          "Keychain Access.app with its respective icon",
+          "Keyboard with its respective icon",
+          "After the \"Keyboard\" item, verify that a continuous string is displayed.",
+          "Icon of the Safari Browser with 'k' letter",
+          "After the \"Safari Browser with the 'k' letter\" item, verify that a continuous string is displayed.",
+          "System Settings",
+          "The Icon of the System Settings for all:",
+          "Keyboard with its respective icon",
+          "Known networks with its respective icon",
+          "Keyboard shortcuts with its respective icon",
+          "Keyboard shortcut with its respective icon",
+          "After the \"Keyboard shortcut\" item, verify that a continuous string is displayed.",
+          "Check that \"Photos From Apps\" is shown on the left side and \"Show More with >\" on the right side.",
+          "Verify that some photos are displayed horizontally, with six of them visible.",
+          "Check that the dropdown list allows vertical scrolling.",
+          "Scroll down to confirm that more items are visible beyond the initial view."
+        ]
+      }
+    ],
+    "expected_result": [
+      "All specified items mentioned in the dropdown list are displayed on the left side "
+    ]
+  }
+}
