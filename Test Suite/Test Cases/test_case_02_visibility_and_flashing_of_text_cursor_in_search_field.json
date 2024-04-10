@@ -1,0 +1,16 @@
+{
+  "test_case": {
+    "id": "02",
+    "title": "Visibility and Flashing of Text Cursor in Search Field",
+    "pre_condition": [
+      "The user has any Mac device with macOS 11 (Big Sur), macOS 12 (Monterey), macOS 13 (Ventura), or macOS 14 (Sonoma) with a functioning Spotlight Search."
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "action": "After opening Spotlight Search, observe that the text cursor is visible and flashing on the left side of the search field.",
+        "expected_result": "The text cursor is visibly flashing on the left side of the search field."
+      }
+    ]
+  }
+}
