@@ -2,7 +2,7 @@ Welcome to Viktoriia Colozzo's QA Portfolio
 
 About Me
 
-I am Viktoriia, a passionate and self-motivated Software QA Engineer with over 7 years of expertise in testing Web, Desktop, Mobile, and Hardware applications. 
+I am Viktoriia, a passionate and self-motivated Software QA Engineer with over 7 years of expertise in testing Web, Desktop, Mobile applications. 
 
 My experience spans across various industries including media platforms, e-commerce, infotainment, and radio.
 
