@@ -2,13 +2,13 @@ Welcome to Viktoriia Colozzo's QA Portfolio
 
 About Me
 
-I am Viktoriia, a passionate and self-motivated Software QA Engineer with over 7 years of expertise in testing Web, Desktop, Mobile applications. 
+I am Viktoriia, a passionate and self-motivated Software QA Engineer with 7 years of expertise in testing Web, Desktop, and Mobile applications. 
 
-My experience spans across various industries including media platforms, e-commerce, infotainment, and radio.
+My experience includes media platforms, e-commerce, infotainment, and radio industries
 
 Portfolio Overview
 
-This repository serves as a showcase my key skills and experiences in the field of software quality assurance, including test development, bug report creation, and integration with Postman for 2 projects in TestRail.com that I have created, utilizing their API endpoints.
+This repository serves as a showcase of my key skills and experiences in the field of software quality assurance, including test development, bug report creation, and integration with Postman for 2 projects in TestRail.com that I have created, utilizing their API endpoints.
 
 I am committed to updating this portfolio with examples of additional tools and technologies, ensuring it remains a comprehensive showcase of my capabilities.
 
@@ -26,7 +26,7 @@ https://www.apple.com - Industry: Computers and Electronics Manufacturing - I cr
 
 Test Scenarios: 
 
-Examples of test scenarios written in Gherkin syntax.
+Examples of test scenarios are written in Gherkin syntax.
 
 https://www.disneyplus.com/ - Industry: Entertainment Providers - I created 3 test scenarios for the website.
 
